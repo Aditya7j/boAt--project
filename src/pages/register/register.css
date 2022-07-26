@@ -1,0 +1,9 @@
+.errordiv{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.10em;
+    background-color: #FF0000;
+    width: 350px;
+    padding: 13px;
+    margin: 5px 0;
+}

@@ -1,0 +1,13 @@
+.ad{
+    height: 40px;
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addp{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: transparent;
+}

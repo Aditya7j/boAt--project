@@ -1,0 +1,139 @@
+.new{
+    height: 600px;
+    display: flex;
+    padding: 50px;
+}
+.newh{
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+}
+
+.new1{
+    flex: 1;
+    height: 590px;
+    border-radius: 25px;
+    display: flex;
+}
+.newimgcont{
+    flex: 1;
+    background-image: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Untitled-2_6b2b235d-7fb0-45e1-b9ba-8890ec81b172.jpg?v=1657439033");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: slider infinite 9s linear;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+@keyframes slider{
+    0%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blue.jpg?v=1657955575");
+    }
+    35%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/image-3.png?v=1657607507");
+    }
+    75%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Banner3-product-_3_e8e08bc4-cf14-4ae2-84fa-55e75559f065.png?v=1622097285");
+    }
+}
+.newimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.newcontent{
+    flex: 1;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #fff;
+}
+.bluep{
+    font-size: 18px;
+    color: #9E9E9E;
+    font-weight: 600;
+    margin-left: 35%;
+    margin-top: -30%;
+    line-height: 4;
+}
+.blueh{
+    margin-left: 30%;
+    line-height: 4;
+}
+.bluebtn{
+    margin-left: 35%;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+.bluehh{
+    margin-left: 40%;
+    color: red;
+    line-height: 2;
+    font-weight: 400;
+}
+.bluespan{
+    margin-left: 30%;
+    margin-right: 15px;
+    background-color: #9E9E9E;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    line-height: 3;
+}
+.bluespan:hover{
+    background-color: transparent;
+    color: #000;
+}
+.bluespan1{
+    cursor: pointer;
+    
+}
+.bluespan1:hover{
+    background-color: #9E9E9E;
+    color: #fff;
+}
+.blueppp{
+    font-size: 14px;
+    margin-left: 15%;
+    text-align: justify;
+    line-height: 1.5;
+    color: #000;
+    font-weight: 500;
+}
+.transpan{
+    color: #fff;
+}
+.readspan{
+    color: #FF0000;
+}
+.explorebtn{
+    margin-left: 25%;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    background-color: #fff;
+    margin-right: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.explorebtn:hover{
+    background-color: #FF0000;
+    color: #fff;
+}
+.cartbtn{
+    background-color: #FF0000;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}

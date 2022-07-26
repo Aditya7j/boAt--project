@@ -1,0 +1,86 @@
+.logindiv{
+    background-color: #252525;
+    height: 1100px;
+}
+.loginh{
+    text-align: center;
+    color: #fff;
+    font-weight: 350;
+    font-size: 48px;
+    line-height: 2.2;
+}
+.loginp{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1;
+}
+.loginfbimg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin: 7px;
+    margin-left: 46.5%;
+}
+.logingooimg{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    object-fit: cover;
+    border-radius: 50%;   
+}
+
+.logininput1{
+    width: 430px;
+    padding: 16px;
+    margin: 10px;
+    margin-left: 35%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: #fff;
+}
+.logininput1:focus{
+    outline: none;
+}
+
+.logininput1:hover{
+    border: 1px solid white;
+}
+.logininput1::placeholder{
+    color: aliceblue;
+}
+
+.loginbutton{
+    margin-left: 35%;
+    width: 466px;
+    border: none;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+.loginspan1{
+    margin-left: 40%;
+}
+.loginnewanch1{
+    color: #E1E1E1;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.loginnewanch2{
+    color: #E1E1E1;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.loginnewanch2:hover{
+    text-decoration: none;
+    color: #fff;
+}
+

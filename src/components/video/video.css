@@ -1,0 +1,45 @@
+.video{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 480px;
+    grid-gap: 10px;    
+}
+.video div{
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.mainvideo1{
+    width: 100%;
+    height: 85%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.mini{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: -25px;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+
+}
+.miniimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.minip{
+    font-size: 16px;
+    margin-left: 25%;
+    color: #000;
+    font-weight: 600;
+}
+.minip1{
+    font-size: 14px;
+    margin-left: 30%;
+    color: gray;
+    font-weight: 400;
+}
